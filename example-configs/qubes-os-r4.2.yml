@@ -175,6 +175,11 @@ components:
   - xscreensaver
   - remote-support
   - windows-tools-cross
+  - shim-unsigned:
+      branch: devel # XXX for testing only - change that, once the whole thing works
+      url: https://github.com/aronowski/qubes-shim-unsigned
+      maintainers:
+        - 'FDCCF2DB25F9A7CE18D852DE2E26E3F5DA116A0E'
 
 
 #executor:
